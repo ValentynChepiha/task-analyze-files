@@ -15,7 +15,7 @@ const getMinus = async () => {
     }
 
     if( resultListUsers.length ) {
-        console.log(`List of File1 users without File2 users: ${resultListUsers}`);
+        console.log(`List of File1 users without File2 users: ${resultListUsers.join(', ')}`);
         return;
     }
 
